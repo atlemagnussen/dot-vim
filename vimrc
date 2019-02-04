@@ -85,3 +85,5 @@ endfunction
 
 nnoremap <S-h> :call ToggleHiddenAll()<CR>
 call ToggleHiddenAll()
+
+hi Normal guibg=NONE ctermbg=NONE
