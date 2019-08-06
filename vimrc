@@ -9,12 +9,13 @@ endif
 
 call plug#begin('~/.vim/plugged')
 
-Plug '/usr/local/opt/fzf'
+Plug '/usr/bin/fzf'
 Plug 'junegunn/fzf.vim'
 
 Plug 'isRuslan/vim-es6'
 Plug 'MarcWeber/vim-addon-mw-utils'
 Plug 'garbas/vim-snipmate'
+Plug 'Valloric/YouCompleteMe'
 "Plug 'vim-syntastic/syntastic'
 Plug 'dense-analysis/ale'
 "Plug 'vim-airline/vim-airline'
@@ -47,8 +48,15 @@ colorscheme molokai
 " ale
 let g:ale_linters = {'javascript': ['eslint']}
 let g:ale_sign_column_always = 1
-let g:ale_sign_warning = '--'
+let g:ale_sign_error = '☢'
+let g:ale_sign_warning = '✈'
 let g:ale_open_list = 1
+
+" NerdTree
+let NERDTreeShowHidden=1
+
+" YouCompleteMe
+let g:ycm_server_python_interpreter = '/usr/bin/python2'
 
 "lightline
 let g:lightline = {
