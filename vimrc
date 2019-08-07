@@ -57,7 +57,7 @@ let g:ale_open_list = 1
 let NERDTreeShowHidden=1
 
 " YouCompleteMe
-let g:ycm_server_python_interpreter = '/usr/bin/python2'
+let g:ycm_server_python_interpreter = '/usr/bin/python3'
 
 "lightline
 let g:lightline = {
