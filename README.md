@@ -25,7 +25,7 @@ Plug - https://github.com/junegunn/vim-plug
 
 Then install and build ycm by running:
 ```sh
-cd ~/.vim/bundle/YouCompleteMe
+cd ~/.vim/plugged/YouCompleteMe
 python3 install.py --cs-completer --js-completer
 ```
 
