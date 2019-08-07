@@ -9,22 +9,23 @@ endif
 
 call plug#begin('~/.vim/plugged')
 
+Plug 'scrooloose/nerdtree', { 'on': 'NERDTreeToggle' }
+Plug 'dense-analysis/ale'
+Plug 'Valloric/YouCompleteMe'
 Plug '/usr/bin/fzf'
 Plug 'junegunn/fzf.vim'
+
+Plug 'itchyny/lightline.vim'
 
 Plug 'isRuslan/vim-es6'
 Plug 'MarcWeber/vim-addon-mw-utils'
 Plug 'garbas/vim-snipmate'
-Plug 'Valloric/YouCompleteMe'
+Plug 'tpope/vim-fugitive'
 "Plug 'vim-syntastic/syntastic'
-Plug 'dense-analysis/ale'
 "Plug 'vim-airline/vim-airline'
 "Plug 'vim-airline/vim-airline-themes'
-Plug 'itchyny/lightline.vim'
-Plug 'tpope/vim-fugitive'
 
 " On-demand loading
-Plug 'scrooloose/nerdtree', { 'on': 'NERDTreeToggle' }
 
 " Initialize plugin system
 call plug#end()
