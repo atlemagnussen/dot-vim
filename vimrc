@@ -1,15 +1,8 @@
-" Specify a directory for plugins
-" - For Neovim: ~/.local/share/nvim/plugged
-" - Avoid using standard Vim directory names like 'plugin'
+" vim vimrc
+" @atlemagnussen
 
 source ~/.vim/plugins.vim
 source ~/.vim/mappings.vim
-
-
-" Source a global configuration file if available
-"if filereadable("/etc/vim/vimrc.local")
-"  source /etc/vim/vimrc.local
-"endif
 
 set tabstop=4
 set shiftwidth=4
