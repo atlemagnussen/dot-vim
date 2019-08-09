@@ -18,16 +18,3 @@ Plug - https://github.com/junegunn/vim-plug
 - [Vim-snipmate](https://github.com/garbas/vim-snipmate)
 - [Vim-fugitive](https://github.com/tpope/vim-fugitive)
 
-## Plugins that needs extra work to install
-### YouCompleteMe
-- need `build-essential cmake python3` as a prerequisite on the system. 
-- need `npm install typescript` for js autocompletion
-
-Then install and build ycm by running:
-```sh
-cd ~/.vim/plugged/YouCompleteMe
-python3 install.py --cs-completer --js-completer
-```
-
-### FZF
-- need `fzf` installed on system.
