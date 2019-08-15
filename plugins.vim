@@ -16,26 +16,15 @@ Plug 'scrooloose/nerdtree', { 'on': 'NERDTreeToggle' }
 Plug '/usr/bin/fzf'
 Plug 'junegunn/fzf.vim'
 
-Plug 'isRuslan/vim-es6'
-
-Plug 'neoclide/coc.nvim', {'branch': 'release'}
-
-" On-demand loading
+Plug 'OmniSharp/omnisharp-vim'
 
 " Initialize plugin system
 call plug#end()
 
-" Plugins settings
-" ale
-"let g:ale_linters = {'javascript': ['eslint']}
-"let g:ale_sign_column_always = 1
-"let g:ale_sign_error = '☢'
-"let g:ale_sign_warning = '✈'
-"let g:ale_open_list = 1
+" Omnisharp config
+source ~/.vim/omnisharp-conf.vim
 
 " NerdTree
 let NERDTreeShowHidden=1
 
-" YouCompleteMe
-"let g:ycm_server_python_interpreter = '/usr/bin/python3'
 
