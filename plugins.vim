@@ -12,14 +12,21 @@ endif
 call plug#begin('~/.vim/plugged')
 
 Plug 'scrooloose/nerdtree', { 'on': 'NERDTreeToggle' }
-"Plug 'dense-analysis/ale'
+Plug 'dense-analysis/ale'
 Plug '/usr/bin/fzf'
 Plug 'junegunn/fzf.vim'
 
 Plug 'OmniSharp/omnisharp-vim'
+Plug 'SirVer/ultisnips'
+Plug 'prabirshrestha/asyncomplete.vim'
+
+
 
 " Initialize plugin system
 call plug#end()
+
+" ALE config
+source ~/.vim/ale-conf.vim
 
 " Omnisharp config
 source ~/.vim/omnisharp-conf.vim
