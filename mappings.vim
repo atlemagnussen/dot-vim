@@ -1,7 +1,7 @@
 " vim mappings.vim
 " @atlemagnussen
-let mapleader=","
-
+let mapleader = ";"
+let maplocalleader = ","
 map <C-n> :NERDTreeToggle<CR>
 map <C-f> :GFiles<CR>
 
