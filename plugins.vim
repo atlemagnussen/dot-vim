@@ -20,7 +20,7 @@ Plug 'OmniSharp/omnisharp-vim'
 Plug 'SirVer/ultisnips'
 Plug 'prabirshrestha/asyncomplete.vim'
 
-
+Plug 'pangloss/vim-javascript'
 
 " Initialize plugin system
 call plug#end()
