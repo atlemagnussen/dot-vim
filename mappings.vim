@@ -3,6 +3,9 @@
 let mapleader = ";"
 let maplocalleader = ","
 
+" make terminal go to normal mode
+tnoremap <Esc> <C-W>N
+
 map <F3> :Ag<CR>
 map <F4> :Colors<CR>
 map <F5> :terminal<CR>
