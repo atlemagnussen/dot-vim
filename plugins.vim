@@ -8,6 +8,10 @@ if empty(glob('~/.vim/autoload/plug.vim'))
   autocmd VimEnter * PlugInstall --sync | source $MYVIMRC
 endif
 
+" Enable completion where available.
+" This setting must be set before ALE is loaded.
+let g:ale_completion_enabled = 1
+
 " init plug and list plugins inside
 call plug#begin('~/.vim/plugged')
 
@@ -21,6 +25,7 @@ Plug 'SirVer/ultisnips'
 Plug 'prabirshrestha/asyncomplete.vim'
 
 Plug 'pangloss/vim-javascript'
+Plug 'leafgarland/typescript-vim'
 
 " Initialize plugin system
 call plug#end()

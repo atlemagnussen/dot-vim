@@ -7,5 +7,6 @@ let g:ale_sign_warning = '✈'
 let g:ale_open_list = 1
 let g:ale_linters = {
             \ 'cs': ['OmniSharp'],
-            \ 'javascript': ['eslint']
+            \ 'javascript': ['eslint'],
+            \ 'typescript': ['eslint']
             \}
