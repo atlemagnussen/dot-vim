@@ -11,5 +11,5 @@ set expandtab
 set smartindent
 
 syntax enable
-colorscheme molokai
+colorscheme dracula
 
