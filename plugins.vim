@@ -27,6 +27,8 @@ Plug 'prabirshrestha/asyncomplete.vim'
 Plug 'pangloss/vim-javascript'
 Plug 'leafgarland/typescript-vim'
 
+Plug 'prettier/vim-prettier', { 'do': 'npm install' }
+
 " Initialize plugin system
 call plug#end()
 
