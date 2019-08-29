@@ -25,7 +25,10 @@ Plug 'SirVer/ultisnips'
 Plug 'prabirshrestha/asyncomplete.vim'
 
 Plug 'pangloss/vim-javascript'
-Plug 'leafgarland/typescript-vim'
+
+"Plug 'Shougo/deoplete.nvim'
+"Plug 'roxma/nvim-yarp'
+"Plug 'roxma/vim-hug-neovim-rpc'
 
 Plug 'prettier/vim-prettier', { 'do': 'npm install' }
 
@@ -41,4 +44,5 @@ source ~/.vim/omnisharp-conf.vim
 " NerdTree
 let NERDTreeShowHidden=1
 
-
+" Deoplete
+let g:deoplete#enable_at_startup = 1
