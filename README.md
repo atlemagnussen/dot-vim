@@ -1,5 +1,9 @@
 # atlemagnussen vim setup
 
+```sh
+git clone git@github.com:atlemagnussen/dot-vim.git .vim
+```
+
 # Plugin manager
 Plug - https://github.com/junegunn/vim-plug
 
