@@ -1,7 +1,9 @@
 # atlemagnussen vim setup
 
+this readme file is usually outdated as I change plugins all the time without updating the readme
+
 ```sh
-git clone git@github.com:atlemagnussen/dot-vim.git .vim
+git clone https://github.com/atlemagnussen/dot-vim.git .vim
 ```
 
 # Plugin manager
